@@ -18,7 +18,7 @@ function App(props) {
   return (
     <div className="todoapp stack-large">
       <h1>TodoMatic</h1>
-      <Form/>
+      <Form />
       <div className="filters btn-group stack-exception">
         <FilterButton/>
         <FilterButton/>
