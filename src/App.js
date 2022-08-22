@@ -5,6 +5,8 @@ import Form from "./components/Form";
 import FilterButton from "./components/FilterButton";
 import { nanoid } from "nanoid";
 
+//import { Provider } from "@gadgetinc/react";
+//import {api} from "./index.js"
 
 function App(props) {
   const [tasks, setTasks] = useState(props.tasks);
